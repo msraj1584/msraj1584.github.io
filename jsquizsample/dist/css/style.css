@@ -13,12 +13,17 @@ body {
   width: 100vw;
   height: 100vh;
   background-color: #341f97;
+  background: rgb(2,0,36);
+background: linear-gradient(39deg, rgba(2,0,36,1) 0%, rgb(3, 111, 253) 35%, rgb(234, 0, 255) 100%);
 }
 
 .welcome_text {
   width: 400px;
+  color: #fff;
 }
-
+.title{
+  
+}
 .welcome_form {
 }
 
@@ -97,12 +102,13 @@ body {
   color: #fff;
 }
 .quiz_body {
-  background-color: #ecf0f1;
+  background-color: #c6cbcc;
 }
 
 .option_group {
   list-style-type: none;
   margin: 30px 0;
+  
 }
 
 .option {
@@ -147,11 +153,44 @@ body {
   font-size: 300px;
   color: #fff;
 }
-
+.img{
+  width: 200px;
+  height: 100%;
+}
 .username,
 .userpoints,
 .usertime {
   color: #fff;
   text-align: center;
   margin-top: 15px;
+  
+}
+.points{
+  color: black;
+  font-weight: bolder;
+}
+.time_taken{
+  color: black;
+  font-weight: bolder;
+}
+.ss{
+  position:inherit;
+  width: 65%;
+  height: 100%;
+ 
+}
+.name{
+  text-align: center;
+  color: black;
+  font-weight: bolder;
+}
+.ww{
+  text-align: center;
+  color: rgb(5, 226, 255);
+  font-weight: bolder;
+}
+.www{text-align: center;
+  color: rgb(134, 148, 149);
+  font-weight: bolder;
+
 }

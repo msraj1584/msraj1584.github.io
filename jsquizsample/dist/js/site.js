@@ -2,37 +2,116 @@
 let questions = [
   {
     id: 1,
-    question: "What is the full form of RAM ?",
-    answer: "Random Access Memory",
+    question: "Which of the following is server side JS object?",
+    answer: "File",
     options: [
-      "Random Access Memory",
-      "Randomely Access Memory",
-      "Run Aceapt Memory",
-      "None of these"
+      "Function",
+      "File Upload",
+      "File",
+      "Date"
     ]
   },
   {
     id: 2,
-    question: "What is the full form of CPU?",
-    answer: "Central Processing Unit",
+    question: "______ JavaScript is also called client-side JavaScript",
+    answer: "Navigator",
     options: [
-      "Central Program Unit",
-      "Central Processing Unit",
-      "Central Preload Unit",
-      "None of these"
+      "Microsoft",
+      "Navigator",
+      "LiveWire",
+      "Native"
     ]
   },
   {
     id: 3,
-    question: "What is the full form of E-mail",
-    answer: "Electronic Mail",
+    question: "The _______ method of an Array object adds and/or removes elements from an array.",
+    answer: "Splice",
     options: [
-      "Electronic Mail",
-      "Electric Mail",
-      "Engine Mail",
-      "None of these"
+      "Reverse",
+      "Shift",
+      "Slice",
+      "Splice"
     ]
-  }
+  },
+  {
+    id: 4,
+    question: "____________ is the tainted property of a window object",
+    answer: "Defaultstatus",
+    options: [
+      "Protocol",
+      "Pathname",
+      "Defaultstatus",
+      "Host"
+    ]
+  },
+  {
+    id: 5,
+    question: "Which of the following attribute can hold the JavaScript version?",
+    answer: "Language",
+    options: [
+      "Language",
+      "Script",
+      "Version",
+      "None of the Above"
+    ]
+  },
+  {
+    id: 6,
+    question: "______ JavaScript is also called client-side JavaScript",
+  answer: "Navigator",
+  options: [
+    "Microsoft",
+    "Navigator",
+    "LiveWire",
+    "Native"
+    ]
+  },
+    
+  {
+    id: 7,
+    question: "Which of the following navigator object properties is the same in both   Netscape and IE?",
+    answer: "navigator.appCodeName",
+    options: [
+      "navigator.appCodeName",
+      "navigator.appName",
+      "navigator.appVersion",
+      "navigator.NameVersion"
+    ]
+  },
+  {
+    id: 8,
+    question: "JavaScript entities start with _______ and end with _________.",
+    answer: "Ampersand, semicolon",
+    options: [
+      "Semicolon, colon",
+      "Semicolon, Ampersand",
+      "Ampersand, colon",
+      "Ampersand, semicolon"
+    ]
+  },
+  {
+    id: 9,
+    question: "Which of the following is not considered a JavaScript operator?",
+    answer: "this",
+    options: [
+      "new",
+      "this",
+      "delete",
+      "typeof"
+    ]
+  },
+  {
+    id: 10,
+    question: "JavaScript is interpreted by _________",
+    answer: "Client",
+    options: [
+      "Client",
+      "Server",
+      "Object",
+      "None of the Above"
+    ]
+  },
+  
 ];
 
 let question_count = 0;
