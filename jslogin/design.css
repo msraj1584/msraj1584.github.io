@@ -60,7 +60,7 @@ body{background: linear-gradient(44deg, rgba(2,0,36,1) 0%, rgba(65,9,121,1) 35%,
     color:red;
     }
     .valid{
-    color:rgb(135, 0, 246);
+    color:rgb(255,255,255);
     }
     .back{
     text-decoration: none;
