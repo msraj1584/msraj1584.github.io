@@ -1,10 +1,8 @@
-body{height: 100%;
-    width: 100%;
-    background: linear-gradient(39deg, rgb(13, 1, 243) 0%,  rgb(234, 0, 255) 100%);
+body{background: linear-gradient(44deg, rgba(2,0,36,1) 0%, rgba(65,9,121,1) 35%, rgba(0,212,255,1) 100%);
 }
 @import url(http://fonts.googleapis.com/css?family=Raleway);
     h2{
-    background-color: #afafad;
+    
     padding: 30px 35px;
     margin: -10px -50px;
     text-align:center;
@@ -16,22 +14,25 @@ body{height: 100%;
     border-top: 1px solid rgb(0, 0, 0);
     margin-bottom: 40px;
     }.img{
-        height: 400px;
-        width: 300px;
+        height: 200px;
+        width: 150px;
     }
     div.container{
     text-align:center;
     width: 100%;
-    height: 900px;
+    height: 700px;
     margin:35px auto;
     font-family: 'Raleway', sans-serif;
     }
-    div.main{
+    div.main{position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     width: 300px;
-    padding: 100px 50px 25px;
+    padding: 20px 50px 25px;
     background: #afafad;
     border: 5px solid rgb(78, 77, 76);
-    border-radius: 10px;
+    border-radius: 25px;
     font-family: raleway;
     float:left;
     margin-top:50px;
@@ -85,4 +86,12 @@ body{height: 100%;
     input[type=button]:hover{
     background: linear-gradient(#006eff 5%, #00e1ff 100%);
     color: #f6fa00;
+}
+span{
+    animation: blink 1s linear infinite;
+}
+@keyframes blink{
+0%{opacity: 0;}
+50%{opacity: .5;}
+100%{opacity: 1;}
 }
