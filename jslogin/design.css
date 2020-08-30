@@ -34,7 +34,6 @@ body{background: linear-gradient(44deg, rgba(2,0,36,1) 0%, rgba(65,9,121,1) 35%,
     border: 5px solid rgb(78, 77, 76);
     border-radius: 25px;
     font-family: raleway;
-    float:left;
     margin-top:50px;
     }
     input[type=text],input[type=password]{
